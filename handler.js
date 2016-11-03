@@ -1,4 +1,4 @@
 'use strict';
 module.exports.hello = (event, context, callback) => {
-  callback('fail', { message: 'fail', event });
+  callback(new Error('fail'), { message: 'fail', event });
 };
