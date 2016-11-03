@@ -1,0 +1,1 @@
+# serverless-local-invoke-failure
